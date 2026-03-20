@@ -1,5 +1,6 @@
 import os
 import sys
+import subprocess
 
 def clear():
 	os.system("clear")
@@ -103,7 +104,16 @@ while True:
 			vk_scan()
 			sub = int(input("Escolha: "))
 			
-			if sub == 10:
+			if sub == 1:
+				os.system('chmod +x utils/scanners/nmap.sh')
+				while True:
+					clear()
+					main()
+					retorno = os.system('utils/scanners/nmap.sh')
+					if retorno == 0:
+						break
+
+			elif sub == 10:
 				break
 
 	elif sub == 4:
@@ -123,19 +133,3 @@ while True:
 		print("Saindo... Tchau até mais ;>")
 		print("")
 		sys.exit()
-		
-
-		
-		
-
-	
-	
-
-	
-
-
-	
-	
-	
-		
-                                               
