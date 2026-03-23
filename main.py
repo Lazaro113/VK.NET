@@ -55,7 +55,7 @@ def vk_atk():
 	
 def vk_scan():
 	print("")
-	print("( 1 ) - Nmap")
+	print("( 1 ) - PortScanner")
 	print("( 2 ) - Whois")
 	print("( 3 ) - OpenVAS")
 	print("( 0 ) - Sair")
@@ -71,12 +71,16 @@ def vk_virus():
 	print("( 10 ) - Voltar")
 	print("")
 
+
+#SISTEMA DE MENU ============================================
 while True:
 	clear()
 	main()
 	vk_menu()
 	sub = int(input("Escolha: "))
 	
+#SISTEMA DE VULNERABILIDADES
+
 	if sub == 1:
 		while True:
 			clear()
@@ -86,7 +90,8 @@ while True:
 			
 			if sub == 10:
 				break
-	
+#SISTEMA DE ATAQUES ============================================
+
 	elif sub == 2:
 		while True:
 			clear()
@@ -96,6 +101,7 @@ while True:
 			
 			if sub == 10:
 				break
+#SISTEMA DE SCANNERS ============================================
 
 	elif sub == 3:
 		while True:
@@ -105,16 +111,16 @@ while True:
 			sub = int(input("Escolha: "))
 			
 			if sub == 1:
-				os.system('chmod +x utils/scanners/nmap.sh')
 				while True:
 					clear()
 					main()
-					retorno = os.system('utils/scanners/nmap.sh')
+					retorno = os.system('python3 utils/scanners/portscanner.py')
 					if retorno == 0:
 						break
 
 			elif sub == 10:
 				break
+#SISTEMAS DE MALWARES ============================================
 
 	elif sub == 4:
 		while True:
