@@ -4,9 +4,10 @@ from colorama import Fore
 print("")
 host = input("Digite: ")
 portas = [80, 443, 20, 21, 990, 22, 23, 25, 110, 143, 53]
+caminho = "utils/scanners/testelazaro.txt"
 
 try:
-	with open("testelazaro.txt", "a") as f:
+	with open(caminho, "a") as f:
 		f.write("\n" + "=" * 3 + "\n" + host + "\n")
 		for ports in portas:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

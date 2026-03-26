@@ -2,3 +2,9 @@
 ===
 192.168.1.1
 [+] A porta 80 está aberta[+] A porta 443 está aberta[-] A porta 20 está fechada[-] A porta 21 está fechada[-] A porta 990 está fechada[-] A porta 22 está fechada[-] A porta 23 está fechada[-] A porta 25 está fechada[-] A porta 110 está fechada[-] A porta 143 está fechada[+] A porta 53 está aberta
+===
+192.168.1.1
+[+] A porta 80 está aberta[+] A porta 443 está aberta[-] A porta 20 está fechada[-] A porta 21 está fechada[-] A porta 990 está fechada[-] A porta 22 está fechada[-] A porta 23 está fechada[-] A porta 25 está fechada[-] A porta 110 está fechada[-] A porta 143 está fechada[+] A porta 53 está aberta
+===
+192.168.1.3
+[-] A porta 80 está fechada[-] A porta 443 está fechada[-] A porta 20 está fechada[-] A porta 21 está fechada[-] A porta 990 está fechada[-] A porta 22 está fechada[-] A porta 23 está fechada[-] A porta 25 está fechada[-] A porta 110 está fechada[-] A porta 143 está fechada[-] A porta 53 está fechada
