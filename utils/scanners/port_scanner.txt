@@ -1,0 +1,7 @@
+
+===
+192.168.1.1
+[32m[+] A porta 80 está aberta[32m[+] A porta 443 está aberta[31m[-] A porta 20 está fechada[31m[-] A porta 21 está fechada[31m[-] A porta 990 está fechada[31m[-] A porta 22 está fechada[31m[-] A porta 23 está fechada[31m[-] A porta 25 está fechada[31m[-] A porta 110 está fechada[31m[-] A porta 143 está fechada[32m[+] A porta 53 está aberta
+===
+192.168.1.1
+[32m[+] A porta 80 está aberta[32m[+] A porta 443 está aberta[31m[-] A porta 20 está fechada[31m[-] A porta 21 está fechada[31m[-] A porta 990 está fechada[31m[-] A porta 22 está fechada[31m[-] A porta 23 está fechada[31m[-] A porta 25 está fechada[31m[-] A porta 110 está fechada[31m[-] A porta 143 está fechada[32m[+] A porta 53 está aberta
